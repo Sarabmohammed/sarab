@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="ar" dir="rtl">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>المراجعة اللغوية والفكرية - مجلة جامعة اشور</title>
+  <style>
+    body {
+      margin: 0; 
+      padding: 0; 
+      direction: rtl; 
+      font-family: "Arial", sans-serif; 
+      background-color: #f9f9f9; 
+      color: #333;
+    }
+    header {
+      background-color: #0066cc;
+      color: white;
+      padding: 40px;
+      text-align: center;
+    }
+    nav {
+      background-color: #004080;
+      display: flex;
+      justify-content: center;
+    }
+    nav a {
+      color: white;
+      text-decoration: none;
+      padding: 14px 20px;
+      display: block;
+      font-weight: bold;
+    }
+    nav a:hover {
+      background-color: #0055aa;
+    }
+    section {
+      padding: 20px;
+      max-width: 1000px;
+      margin: 0 auto;
+      background-color: #fff;
+      margin-top: 10px;
+      border-radius: 5px;
+      box-shadow: 0 0 5px rgba(0,0,0,0.1);
+    }
+    section h2 {
+      margin-top: 0;
+      color: #0066cc;
+    }
+    footer {
+      background-color: #004080;
+      color: white;
+      text-align: center;
+      padding: 10px;
+      margin-top: 10px;
+    }
+  </style>
+</head>
+<body>
+
+  <!-- رأس الصفحة -->
+  <header>
+    <h1>مجلة جامعة اشور للعلوم الاجتماعية والانسانية</h1>
+  </header>
+  
+  <!-- شريط التنقل -->
+  <nav>
+    <!-- روابط تؤدي إلى الصفحات الأخرى -->
+    <a href="index.html">الصفحة الرئيسية</a>
+    <a href="editorial-board.html">هيئة التحرير</a>
+    <a href="language-reviewers.html">المراجعة اللغوية</a>
+    <a href="publication-conditions.html">شروط النشر</a>
+    <a href="contact.html">اتصل بنا</a>
+  </nav>
+
+  <!-- المراجعة اللغوية -->
+  <section>
+    <h2>المراجعة اللغوية والفكرية </h2>
+    <ul>
+      <li>م.د ماهر محمد علي / اللغة العربية </li>
+      <li>م.م حسن مهدي موسى / اللغة الانكليزية </li>
+      <li> / المراجعة الفكرية م.م محمد علي غازي</li>
+    </ul>
+  </section>
+
+  <!-- تذييل الصفحة -->
+  <footer>
+    <p>© 2025 مجلة جامعة اشور للعلوم الاجتماعية والانسانية. جميع الحقوق محفوظة.</p>
+  </footer>
+</body>
+</html>
